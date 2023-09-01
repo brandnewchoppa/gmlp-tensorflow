@@ -2,7 +2,6 @@ import tensorflow as tf
 
 from keras import Model, Sequential
 from keras.layers import Layer
-from keras.initializers import ones
 
 from keras.layers import (
     Dense,
@@ -55,7 +54,7 @@ class SpatialGatingUnit(Layer):
         self.bias = self.add_weight(
             name = 'spatial_bias',
             shape = (1, z_shape[-1] // 2),
-            initializer = ones())
+            initializer = tf.keras.initializers.ones())
         
         self.built = True
 
