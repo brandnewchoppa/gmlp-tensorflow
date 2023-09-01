@@ -1,1 +1,1 @@
-# gmlp-tensorflow
+# gMLP - TensorFlow
