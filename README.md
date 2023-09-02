@@ -1,8 +1,9 @@
 # gMLP - TensorFlow
-Gated MLP (TensorFlow implementation) from the paper [Pay Attention to MLPs](https://arxiv.org/pdf/2105.08050v2.pdf)
+Gated MLP (TensorFlow implementation) from the paper [Pay Attention to MLPs](https://arxiv.org/pdf/2105.08050v2.pdf).
 
 ## Roadmap
 - [ ] AutoregressiveWrapper (top_p, top_k)
+- [ ] Rotary Embeddings Experiment
 
 > [!WARNING]
 > This repository is under developemnt, but please feel free to explore and provide any feedback or suggestions you may have. :construction:
