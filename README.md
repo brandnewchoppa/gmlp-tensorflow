@@ -1,6 +1,8 @@
 # gMLP - TensorFlow
 Gated MLP (TensorFlow implementation) from the paper [Pay Attention to MLPs](https://arxiv.org/pdf/2105.08050v2.pdf).
 
+They propose an MLP-based alternative to Transformers without self-attention, which simply consists of channel projections and spatial projections with static parameterization.
+
 ## Roadmap
 - [ ] AutoregressiveWrapper (top_p, top_k)
 - [ ] Rotary Embeddings Experiment
