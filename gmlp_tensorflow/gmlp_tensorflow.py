@@ -219,7 +219,7 @@ class gMLPTransformer(Model):
                  n_tokens : int,
                  emb_dim : int,
                  seq_len : int = 1024,
-                 causal : bool = True,
+                 causal : bool = False,
                  use_attn : bool = False,
                  n_heads : int = 4,
                  depth : int = 4,
