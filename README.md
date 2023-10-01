@@ -6,6 +6,7 @@ They propose an MLP-based alternative to Transformers without self-attention, wh
 ## Roadmap
 - [ ] AutoregressiveWrapper (top_p, top_k)
 - [ ] Rotary Embeddings Experiment
+- [ ] Keras Serializable
 
 > [!WARNING]
 > This repository is under developemnt, but please feel free to explore and provide any feedback or suggestions you may have. :construction:
